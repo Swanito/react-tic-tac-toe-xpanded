@@ -1,0 +1,400 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Board Component 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "margin": "1em",
+        "textAlign": "center",
+      }
+    }
+  >
+    
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "grid",
+        "gridTemplateColumns": "repeat(1, minmax(6em, 6em))",
+        "justifyContent": "center",
+        "margin": "0 auto",
+        "pointerEvents": "auto",
+        "width": "20em",
+      }
+    }
+  >
+    <div
+      className="square"
+      onClick={[Function]}
+    >
+       
+      <div
+        style={
+          Object {
+            "color": "green",
+            "fontSize": "2em",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        
+      </div>
+       
+    </div>
+  </div>,
+]
+`;
+
+exports[`renders Game Component 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <h1>
+      Tic-Tac-Toe Xpanded!
+    </h1>
+  </div>,
+  <div
+    style={
+      Object {
+        "margin": "1em",
+        "textAlign": "center",
+      }
+    }
+  >
+    
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "grid",
+        "gridTemplateColumns": "repeat(3, minmax(6em, 6em))",
+        "justifyContent": "center",
+        "margin": "0 auto",
+        "pointerEvents": "auto",
+        "width": "20em",
+      }
+    }
+  >
+    <div
+      className="square"
+      onClick={[Function]}
+    >
+       
+      <div
+        style={
+          Object {
+            "color": "green",
+            "fontSize": "2em",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        
+      </div>
+       
+    </div>
+    <div
+      className="square"
+      onClick={[Function]}
+    >
+       
+      <div
+        style={
+          Object {
+            "color": "green",
+            "fontSize": "2em",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        
+      </div>
+       
+    </div>
+    <div
+      className="square"
+      onClick={[Function]}
+    >
+       
+      <div
+        style={
+          Object {
+            "color": "green",
+            "fontSize": "2em",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        
+      </div>
+       
+    </div>
+    <div
+      className="square"
+      onClick={[Function]}
+    >
+       
+      <div
+        style={
+          Object {
+            "color": "green",
+            "fontSize": "2em",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        
+      </div>
+       
+    </div>
+    <div
+      className="square"
+      onClick={[Function]}
+    >
+       
+      <div
+        style={
+          Object {
+            "color": "green",
+            "fontSize": "2em",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        
+      </div>
+       
+    </div>
+    <div
+      className="square"
+      onClick={[Function]}
+    >
+       
+      <div
+        style={
+          Object {
+            "color": "green",
+            "fontSize": "2em",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        
+      </div>
+       
+    </div>
+    <div
+      className="square"
+      onClick={[Function]}
+    >
+       
+      <div
+        style={
+          Object {
+            "color": "green",
+            "fontSize": "2em",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        
+      </div>
+       
+    </div>
+    <div
+      className="square"
+      onClick={[Function]}
+    >
+       
+      <div
+        style={
+          Object {
+            "color": "green",
+            "fontSize": "2em",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        
+      </div>
+       
+    </div>
+    <div
+      className="square"
+      onClick={[Function]}
+    >
+       
+      <div
+        style={
+          Object {
+            "color": "green",
+            "fontSize": "2em",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        
+      </div>
+       
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "display": "flex",
+        "flexDirection": "column",
+        "margin": "0 auto",
+        "width": "20em",
+      }
+    }
+  >
+    <div>
+      PLAYERS: 
+      2
+       - BOARD SIZE: 
+      3
+      *
+      3
+    </div>
+    <br />
+    <div>
+      IT'S YOUR TURN 
+      X
+    </div>
+    <br />
+    <div>
+      <form
+        onSubmit={[Function]}
+      >
+        <label
+          htmlFor="board-size-select"
+        >
+          Change board Size
+        </label>
+        <select
+          onChange={[Function]}
+          value={3}
+        >
+          <option
+            value={3}
+          >
+            3*3
+          </option>
+          <option
+            value={6}
+          >
+            6*6
+          </option>
+          <option
+            value={9}
+          >
+            9*9
+          </option>
+        </select>
+        <button
+          type="submit"
+        >
+          Save
+        </button>
+      </form>
+    </div>
+  </div>,
+]
+`;
+
+exports[`renders Settings Component 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "margin": "0 auto",
+      "width": "20em",
+    }
+  }
+>
+  <div>
+    PLAYERS: 
+    2
+     - BOARD SIZE: 
+    1
+    *
+    1
+  </div>
+  <br />
+  <div>
+    IT'S YOUR TURN 
+  </div>
+  <br />
+  <div>
+    <form
+      onSubmit={[Function]}
+    >
+      <label
+        htmlFor="board-size-select"
+      >
+        Change board Size
+      </label>
+      <select
+        onChange={[Function]}
+        value={1}
+      >
+        <option
+          value={3}
+        >
+          3*3
+        </option>
+        <option
+          value={6}
+        >
+          6*6
+        </option>
+        <option
+          value={9}
+        >
+          9*9
+        </option>
+      </select>
+      <button
+        type="submit"
+      >
+        Save
+      </button>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`renders Square Component 1`] = `
+<div
+  style={
+    Object {
+      "color": undefined,
+      "fontSize": "2em",
+      "fontWeight": "bold",
+    }
+  }
+/>
+`;
+
+exports[`renders Title Component 1`] = `
+<div
+  style={
+    Object {
+      "textAlign": "center",
+    }
+  }
+>
+  <h1>
+    Tic-Tac-Toe Xpanded!
+  </h1>
+</div>
+`;
